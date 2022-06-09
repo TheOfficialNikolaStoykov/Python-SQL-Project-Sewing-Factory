@@ -1,0 +1,8 @@
+- name: Action
+  env:
+      HOST: ${{ secrets.HOST }}
+      DATABASE: ${{ secrets.DATABASE }}
+      USER: ${{ secrets.USER }}
+      PASSWORD: ${{ secrets.PASSWORD }}
+  run:
+      action
